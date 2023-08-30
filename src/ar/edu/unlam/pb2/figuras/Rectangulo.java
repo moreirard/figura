@@ -14,4 +14,8 @@ public class Rectangulo {
 	public String toString() {
 		return "Rectangulo [base=" + base + ", altura=" + altura + "]";
 	}
+
+	public Double getPerimetro() {
+		return this.base * 2 + this.altura * 2;
+	}
 }
